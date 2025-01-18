@@ -1,7 +1,6 @@
 
 export interface InventoryChange {
     date: string;
-    changeType: string;  // E.g., 'adjustment', 'restock', 'sale'
     quantityChanged: number;
     newQuantity: number;
     changedBy: string;
