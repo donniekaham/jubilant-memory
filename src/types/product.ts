@@ -1,4 +1,3 @@
-// src/types/product.ts
 
 export interface InventoryChange {
     date: string;
